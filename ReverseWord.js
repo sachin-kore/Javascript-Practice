@@ -1,3 +1,5 @@
+
+// By using In built methods
 let str = "hi my name is sachin";
 function reverseWord(str) {
     let arr = str.split("");
@@ -14,4 +16,18 @@ reverseWord(str);
 // var i = 2;
 // var j = "2";
 // console.log(i === j);
+
+// without using in-built methods
+
+const str1 = "I am fine";
+
+function reverse(str) {
+    let result = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        result += str[i];
+    }
+    return result;
+}
+
+console.log(reverse(str1));
 
