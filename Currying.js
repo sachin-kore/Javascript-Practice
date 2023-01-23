@@ -9,7 +9,7 @@
 
 // console.log(CalculateVolume(4)(5)(6));
 
-var x = 1;
+var x;
 a();
 b();
 console.log(x);

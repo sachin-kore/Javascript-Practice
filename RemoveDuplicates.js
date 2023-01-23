@@ -12,3 +12,6 @@ function removeDuplicates(arr) {
     })
 }
 removeDuplicates(arr);
+
+console.log(arr.forEach((val, i, arr) => (arr[i] = val * 2)));
+console.log(arr);
