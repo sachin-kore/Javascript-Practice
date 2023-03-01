@@ -32,4 +32,4 @@ console.log(b);
 const arr = [3, 6, 4, 8, 9, 2, 4, 6];
 let sum = arr.reduce((itr, acc) => itr + acc, 100)
 // itr will move every elements and accumulator will add all elements and (100) is the initial value
-console.log(sum);
+// console.log(sum);

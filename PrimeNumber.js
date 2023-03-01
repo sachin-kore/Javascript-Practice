@@ -1,4 +1,4 @@
-const num = 1;
+const num = 5;
 let isPrime = true;
 
 if (num === 1) {

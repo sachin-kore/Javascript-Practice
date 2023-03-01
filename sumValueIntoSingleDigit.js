@@ -8,7 +8,7 @@ function addData(num) {
     if (finalOutput > 10) {
         addData(finalOutput);
     } else {
-        console.log(finalOutput); 
+        console.log(finalOutput);
     }
 }
 addData(num);

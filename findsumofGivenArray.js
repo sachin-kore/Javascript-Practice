@@ -10,4 +10,4 @@ function findSumofTwoElements(arr, num) {
     }
 }
 
-console.log(findSumofTwoElements(arr, 88));
+console.log(findSumofTwoElements(arr, 59));

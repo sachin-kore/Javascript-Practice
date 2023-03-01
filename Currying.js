@@ -1,13 +1,13 @@
-// function CalculateVolume(length) {
-//     return function (breadth) {
-//         return function (height) {
-//             return length * breadth * height;
-//         }
-//     }
+function CalculateVolume(length) {
+    return function (breadth) {
+        return function (height) {
+            return length * breadth * height;
+        }
+    }
 
-// }
+}
 
-// console.log(CalculateVolume(4)(5)(6));
+console.log(CalculateVolume(4)(5)(6));
 
 var x;
 a();
