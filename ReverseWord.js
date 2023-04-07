@@ -13,9 +13,6 @@ function reverseWord(str) {
 }
 reverseWord(str);
 
-// var i = 2;
-// var j = "2";
-// console.log(i === j);
 
 // without using in-built methods
 

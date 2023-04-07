@@ -11,10 +11,13 @@ console.log(isNaN(name));
 console.log(isNaN(age));
 
 
-for (var i = 0; i < 5; i++) {
-    setTimeout(() => console.log(i), i * 1000);
-}
-// for (let i = 0; i <= 5; i++) {
-//     setTimeout(() => console.log(i), 0);
-// }
+//----------------------------------------------------------------------------------------------------------------------------------------
+// 1) Guess output
+(function () {
+    setTimeout(() => { console.log(1) }, 2000);
+    console.log(2);
+    setTimeout(() => { console.log(3) }, 0);
+    console.log(4);
+})();
+
 
