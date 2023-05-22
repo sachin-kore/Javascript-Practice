@@ -41,12 +41,9 @@ function getRate() {
         return 10;
     }
 }
-// console.log("Rate is",getRate());
 
-// func2();
-// func1();
 
-var func2 = () => {
+let func2 = () => {
     console.log("I will subscribe to GeekForGeeks")
 };
 
@@ -68,11 +65,11 @@ function func1() {
 })();
 
 
-var length = 10;
+let length = 10;
 function fn() {
     console.log(this.length);
 }
-var obj = {
+let obj = {
     length: 5,
     method: function (fn) {
         fn();

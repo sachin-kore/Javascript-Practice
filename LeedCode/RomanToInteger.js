@@ -15,5 +15,7 @@ function RomanToInteger(num) {
             value -= symbols[num[i]] : value += symbols[num[i]]
     }
     console.log(value);
+
+
 }
 RomanToInteger("MCMXCIV");

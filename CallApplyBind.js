@@ -22,5 +22,5 @@ function myInfo(one, two) {
 myInfo.call(obj, "dosa", "Idli");
 myInfo.apply(obj, ["Booka", "Jamun"]);
 
-var Mycred = myInfo.bind(obj1);
+let Mycred = myInfo.bind(obj1);
 Mycred("kavana", "Shrinidhi");

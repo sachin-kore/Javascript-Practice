@@ -13,6 +13,8 @@ function sortArr(arr) {
             }
         }
     }
+    let out = new Set(arr);
+    console.log(out)
     return arr;
 }
 console.log(sortArr(arr));

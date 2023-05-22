@@ -1,8 +1,4 @@
-// var a = 10;
-// let b = 20;
 
-// console.log(this.a); // undefined or 10
-// console.log(this.b);// undefined
 
 
 //--------------------------------------------------------

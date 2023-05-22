@@ -31,3 +31,11 @@ console.log(newStr.toString());
 
 console.log(newStr.unshift("Apple", "Grape"));
 console.log(newStr);
+
+console.log(Boolean(0)) //false
+
+console.log(Boolean(""))// false
+
+console.log(Boolean(NaN)) // false
+
+console.log(Boolean("false")) // true

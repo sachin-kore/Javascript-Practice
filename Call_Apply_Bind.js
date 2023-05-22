@@ -11,7 +11,7 @@ const obj = {
         return this.age
     }
 }
-var obj2 = { age: 54, name: "Ramesh" };
+let obj2 = { age: 54, name: "Ramesh" };
 
 console.log(obj.getAge.call(obj2));
 
@@ -39,5 +39,5 @@ const BikeDetails = {
 const person1 = {
     name: "Sachin"
 };
-var detailsofPerson1 = BikeDetails.displayDetails.bind(person1, "TS0122", "Bullet");
+let detailsofPerson1 = BikeDetails.displayDetails.bind(person1, "TS0122", "Bullet");
 console.log(detailsofPerson1());

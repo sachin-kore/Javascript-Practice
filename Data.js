@@ -50,9 +50,3 @@ const data = [
         icon: "https://cdn-icons-png.flaticon.com/128/888/888883.png"
     },
 ]
-
-// const res = data.map((item, i) => {
-//     return (
-//         <div>heloo</div>
-//     )
-// })

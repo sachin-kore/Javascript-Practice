@@ -4,8 +4,10 @@ function CountDuplicate(arr) {
     arr.forEach(function (element) {
         count[element] = (count[element] || 0) + 1;
     })
-    for (var val in count) {
+    for (let val in count) {
         console.log(val + "=" + count[val])
     }
 }
 CountDuplicate(arr);
+
+
